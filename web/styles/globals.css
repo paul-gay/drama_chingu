@@ -1,0 +1,53 @@
+/* html {
+  font-size: 18px
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sunflower:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-4xl;
+    @apply font-semibold;
+    @apply mb-8;
+    @apply font-notoSans;
+  }
+  h2 {
+    @apply text-3xl;
+    @apply font-medium;
+    @apply mb-4;
+    @apply font-notoSans;
+  }
+  h3 {
+    @apply text-xl;
+    @apply font-medium;
+    @apply mb-4;
+    @apply font-notoSans;
+  }
+  h4 {
+    @apply text-lg;
+    @apply font-medium;
+    @apply mb-4;
+    @apply font-notoSans;
+  }
+  h6 {
+    @apply text-sm;
+    @apply font-medium;
+    @apply mb-4;
+    @apply font-notoSans;
+  }
+  p {
+    @apply mb-8;
+    @apply text-base;
+  }
+  body {
+    @apply text-gray-900;
+    @apply font-Gothic;
+  }
+}
